@@ -11,7 +11,7 @@ public class Example {
 
 	@RequestMapping(value = "/greeting", method = RequestMethod.GET)
 	public @ResponseBody String greeting(){
-		return "Greetings...";
+		return "Greetings...!! from SrcanGok";
 	}
-	
+
 }
